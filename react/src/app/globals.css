@@ -71,6 +71,15 @@ a {
 	gap: 20px;
 }
 
+.postCard h1 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.postCard p {
+	font-size: 12px;
+}
+
 .postTitle {
 	text-transform: capitalize;
 	cursor: pointer;
