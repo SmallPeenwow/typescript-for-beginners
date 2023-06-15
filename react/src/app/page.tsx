@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styles from './page.module.css';
 import PropsExample from './1-props-example/page';
 import ChildrenPropExample from './2-children-prop-example/page';
+import EventExample from './3-event-example/page';
 
 export default function Home() {
 	return (
@@ -87,6 +88,7 @@ export default function Home() {
 			</main>
 			<PropsExample />
 			<ChildrenPropExample />
+			<EventExample />
 		</>
 	);
 }
