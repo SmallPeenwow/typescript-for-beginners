@@ -4,6 +4,7 @@ import PropsExample from './1-props-example/page';
 import ChildrenPropExample from './2-children-prop-example/page';
 import EventExample from './3-event-example/page';
 import UseStateExample from './4-usestate-example/page';
+import UseContextExample from './5-usecontext-example/page';
 
 export default function Home() {
 	return (
@@ -91,6 +92,7 @@ export default function Home() {
 			<ChildrenPropExample />
 			<EventExample />
 			<UseStateExample />
+			<UseContextExample />
 		</>
 	);
 }
